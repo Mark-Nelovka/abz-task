@@ -1,5 +1,5 @@
 import Header from "./Components/Header";
-// import Hero from "./Components/Hero";
+import Hero from "./Components/Hero";
 // import Cards from "./Components/Cards";
 // import Form from "./Components/Form";
 
@@ -7,9 +7,11 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Hero />
-      <Cards />
-      <Form /> */}
+      <Hero />
+      <main>
+        {/* <Cards /> */}
+        {/* <Form /> */}
+      </main>
     </>
   );
 }
