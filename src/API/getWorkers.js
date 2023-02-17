@@ -1,8 +1,14 @@
 import axios from "axios";
 
-function getWorkers() {
-  axios.get("");
-  console.log("getWorkers");
+async function getWorkers() {
+  try {
+    const { data } = await axios.get(
+      "https://frontend-test-assignment-api.abz.agency/api/v1/users"
+    );
+    return data.users;
+  } catch (error) {
+    return error;
+  }
 }
 
 export default getWorkers;

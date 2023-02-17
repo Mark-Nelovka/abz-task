@@ -1,6 +1,6 @@
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
-// import Cards from "./Components/Cards";
+import Cards from "./Components/Cards";
 // import Form from "./Components/Form";
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
     <>
       <Header />
       <Hero />
-      <main>
-        {/* <Cards /> */}
+      <main className="container">
+        <Cards />
         {/* <Form /> */}
       </main>
     </>
