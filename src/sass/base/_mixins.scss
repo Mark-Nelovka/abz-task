@@ -1,9 +1,10 @@
-@mixin text($family, $weight, $size, $line-height, $color) {
-  font-family: $family;
-  font-weight: $weight;
-  font-size: $size;
-  line-height: $line-height;
-  color: $color;
+@mixin text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 @mixin position($display, $align, $justify, $direction) {
@@ -13,16 +14,11 @@
   flex-direction: $direction;
 }
 
-@mixin section-title {
-  margin-bottom: 180px;
-  & .title {
-    @include text($main-font, $bold, 16px, 150%, $dark-gray);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-  & .sub-title {
-    @include text($main-font, $boldest, 46px, 130%, $dark-gray);
-    margin-bottom: 60px;
-  }
+@mixin title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.87);
 }
