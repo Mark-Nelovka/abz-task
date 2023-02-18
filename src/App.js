@@ -1,7 +1,7 @@
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Cards from "./Components/Cards";
-// import Form from "./Components/Form";
+import Form from "./Components/Form";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Hero />
       <main className="container">
         <Cards />
-        {/* <Form /> */}
+        <Form />
       </main>
     </>
   );
