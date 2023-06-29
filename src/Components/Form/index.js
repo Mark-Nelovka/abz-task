@@ -1,3 +1,3 @@
-import { Form } from "./Form";
+import { FormQ } from "./Form";
 
-export default Form;
+export default FormQ;
